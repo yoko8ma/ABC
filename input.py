@@ -41,6 +41,8 @@ print(A)
 
 # 整数2次元配列
 A = [list(map(int, input().split())) for _ in range(N)]
+print(A)
 
 # 小数2次元配列
 A = [list(map(float, input().split())) for _ in range(N)]
+print(A)
