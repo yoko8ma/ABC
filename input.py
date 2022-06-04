@@ -34,6 +34,19 @@ print(A)
 A= list(map(float, input().split()))
 print(A)
 
+# 1行に複数の整数
+# 4
+# 5 6 8 10
+N = int(input())
+A = list(map(int, input().split()))
+
+# 複数行の整数
+# 2
+# 5
+# 1
+N = int(input())
+A = [int(input()) for _ in range(N)]
+
 # 文字列2次元配列
 # N: 行数
 A = [input().split() for _ in range(N)]
