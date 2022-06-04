@@ -53,7 +53,12 @@ A = [input().split() for _ in range(N)]
 print(A)
 
 # 整数2次元配列
-A = [list(map(int, input().split())) for _ in range(N)]
+H, W = map(int, input().split())
+A = [int(input()) for _ in range(H)]
+
+# 整数2次元配列
+H, W = map(int, input().split())
+A = [list(map(int, input().split())) for _ in range(H)]
 print(A)
 
 # 小数2次元配列
