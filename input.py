@@ -58,7 +58,7 @@ A = [int(input()) for _ in range(H)]
 
 # 整数2次元配列
 H, W = map(int, input().split())
-A = [list(map(int, input().split())) for _ in range(H)]
+A = [list(map(int, input().split())) for _ in range()]
 print(A)
 
 # 小数2次元配列
