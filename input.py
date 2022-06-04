@@ -47,6 +47,18 @@ print(A)
 A = [list(map(float, input().split())) for _ in range(N)]
 print(A)
 
+# 複数行数値
+N = int(input())
+A = [int(input()) for _ in range(N)]
+
 # 数値を数字のリストへ
 [int(x) for x in str(N)]
 map(int, str(N))
+
+# リストの偶数番目の要素
+a = [0,1,2,3,4,5]
+a[0::2]
+
+# リストの奇数番目の要素
+a = [0,1,2,3,4,5]
+a[1::2]
