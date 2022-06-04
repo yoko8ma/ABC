@@ -46,3 +46,7 @@ print(A)
 # 小数2次元配列
 A = [list(map(float, input().split())) for _ in range(N)]
 print(A)
+
+# 数値を数字のリストへ
+[int(x) for x in str(N)]
+map(int, str(N))
