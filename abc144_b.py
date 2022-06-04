@@ -1,13 +1,8 @@
 def func(N):
-  # print(N)
-  mx4 = N//4
-  mx7 = N//7
-
-  for i in range(mx4+1):
-    for j in range(mx7+1):
-      if 4*i + 7*j == N:
+  for i in range(1, 10):
+    for j in range(1, 10):
+      if N == i * j:
         return True
-
   return False
 
 N = int(input())
