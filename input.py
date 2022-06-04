@@ -71,7 +71,7 @@ A = [int(input()) for _ in range(N)]
 
 # 数値を数字のリストへ
 [int(x) for x in str(N)]
-map(int, str(N))
+list(map(int, str(N)))
 
 # リストの偶数番目の要素
 a = [0,1,2,3,4,5]
@@ -80,3 +80,16 @@ a[0::2]
 # リストの奇数番目の要素
 a = [0,1,2,3,4,5]
 a[1::2]
+
+# リストのrevers
+a[::-1]
+
+# 10進数->n進数
+def base_n(num_10,n):
+    str_n = ''
+    while num_10:
+        if num_10%n>=10:
+            return -1
+        str_n += str(num_10%n)
+        num_10 //= n
+    return int(str_n[::-1])

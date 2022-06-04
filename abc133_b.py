@@ -5,7 +5,7 @@ X = [list(map(int, input().split())) for _ in range(N)]
 # print(X)
 
 cnt = 0
-
+  
 for i in range(N-1):
   # print(X[i])
   for j in range(i+1, N):
