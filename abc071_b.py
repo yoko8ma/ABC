@@ -1,0 +1,5 @@
+S = set(input())
+a = set('abcdefghijklmnopqrstuvwxyz')
+print(S ^ a)
+sr = sorted(S ^ a)
+print(min(S ^ a) or None)
