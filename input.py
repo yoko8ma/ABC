@@ -18,7 +18,7 @@ a = list(map(float, input().split()))
 # b
 # c
 n = int(input())
-a = [input() for _ in range()]
+a = [input() for _ in range(n)]
 a = [int(input()) for _ in range(n)]
 a = [float(input()) for _ in range(n)]
 
