@@ -35,6 +35,9 @@ a = [list(map(float, input().split())) for _ in range(n)]
 [int(x) for x in str(N)]
 list(map(int, str(N)))
 
+# 数字を1桁ずつ数字のリストへ
+list(map(int, s))
+
 # リストの偶数番目の要素
 a = [0,1,2,3,4,5]
 a[0::2]
@@ -55,3 +58,6 @@ def base_n(num_10,n):
         str_n += str(num_10%n)
         num_10 //= n
     return int(str_n[::-1])
+
+# 2次元リストの初期化
+l_2d_ok = [[0] * w for i in range(h)]
