@@ -5,8 +5,8 @@ f = float(input())
 
 # a b
 a, b = input().split()
-x, y = map(int, input().split())
-h, m = map(float, input().split())
+a, b = map(int, input().split())
+a, b = map(float, input().split())
 
 # a b c ...
 a = input().split()
@@ -60,4 +60,4 @@ def base_n(num_10,n):
     return int(str_n[::-1])
 
 # 2次元リストの初期化
-l_2d_ok = [[0] * w for i in range(h)]
+l_2d_ok = [[0] * a for i in range(n)]
