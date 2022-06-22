@@ -1,34 +1,24 @@
 # a
-s = input()
 n = int(input())
-f = float(input())
 
 # a b
-a, b = input().split()
 a, b = map(int, input().split())
-a, b = map(float, input().split())
 
 # a b c ...
-a = input().split()
 a = list(map(int, input().split()))
-a = list(map(float, input().split()))
 
 # 3
 # a
 # b
 # c
 n = int(input())
-a = [input() for _ in range(n)]
 a = [int(input()) for _ in range(n)]
-a = [float(input()) for _ in range(n)]
 
-# 2
+# 2 3
 # a b c
 # d e f
 n, x = map(int, input().split())
-a = [input().split() for _ in range(n)]
 a = [list(map(int, input().split())) for _ in range(n)]
-a = [list(map(float, input().split())) for _ in range(n)]
 
 # 数値を数字のリストへ
 # 123 -> [1, 2, 3]
