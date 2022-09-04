@@ -18,8 +18,6 @@ def tr(l):
 ns = tr(s)
 nt = tr(t)
 
-print(ns)
-print(nt)
 
 if (len(s) != len(t)):
   print('No')  
@@ -34,12 +32,11 @@ else:
       flg = False
       break
 
-    if len(ns[i]) == 1:
+    if len(ns[i]) == 1 and len(nt[i]) > 1:
       flg = False
       break
 
-
-if flg:
-  print('Yes')
-else:
-  print('No')
+  if flg:
+    print('Yes')
+  else:
+    print('No')
