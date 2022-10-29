@@ -1,5 +1,8 @@
 import itertools
 
+# a b
+# d e
+# (a*d + a*e + b*d + b*e) = (10^ + 7) * q +  ans
 n = int(input())
 a = []
 for i in range(n):
