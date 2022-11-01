@@ -11,7 +11,7 @@ for x in a:
     d[x] = v
   else:
     d[x] = 1
-print(f'{d=}')
+# print(f'{d=}')
 
 for x in list(d.values()):
   print(x)

@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+max_value = max(a)
+max_index = a.index(max_value)
+print(max_index+1)
