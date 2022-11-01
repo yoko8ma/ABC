@@ -10,13 +10,10 @@ for i in range(n):
 
 print(a)
 
-ans = 0
+ans = 1
 
-for x in itertools.product(*a):
-  prod = 1
-  for num in x:
-    prod *= num
-
-  ans += prod
+for i in range(n):
+  p = a[i][0] + a[i][1] + a[i][2] + a[i][3] + a[i][4] + a[i][5]
+  ans *= p
 
 print(ans%1000000007)
