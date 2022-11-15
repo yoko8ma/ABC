@@ -7,6 +7,7 @@ on = n
 p = list(map(int, input().split()))
 base = copy.copy(p)
 base.sort()
+h = 
 # print(f'{p=}')
 
 l = list(range(1, n+1))
