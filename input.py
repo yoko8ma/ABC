@@ -25,6 +25,10 @@ a = [list(map(int, input().split())) for _ in range(n)]
 [int(x) for x in str(N)]
 list(map(int, str(N)))
 
+# 数字のリストを数値へ
+# [1, 2, 3] -> 123
+int(''.join([1, 2, 3]))
+
 # 数字を1桁ずつ数字のリストへ
 list(map(int, s))
 
