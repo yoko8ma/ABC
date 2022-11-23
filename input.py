@@ -55,3 +55,20 @@ def base_n(num_10,n):
 
 # 2次元リストの初期化
 l_2d_ok = [[0] * a for i in range(n)]
+
+# 二分探索
+import bisect
+a=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+bisect.bisect(a,55) # => 5
+
+# 尺取り法
+l = 0
+r = 0
+while l < n:
+    if r == n or '条件を満たさない':
+	    #処理a
+        l += 1    
+    else:
+	    # 処理b
+        r += 1
+    # 処理c
